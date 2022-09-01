@@ -1,0 +1,28 @@
+.section {
+  color: whitesmoke;
+  align-self: center;
+  width: 400px;
+  margin: auto;
+}
+
+.section p {
+  width: 500px;
+}
+
+@media (max-width: 1126px) {
+  .section {
+    width: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .section p {
+    width: 100%;
+  }
+}
